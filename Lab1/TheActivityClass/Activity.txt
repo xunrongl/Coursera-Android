@@ -1,0 +1,33 @@
+1.
+b) a.
+	Answer:
+		When user starts the application:
+		Activity 1: onCreate, onStart, OnResume, Activity Running,
+		Next, when user presses the Button to start ActivityTwo,
+		Activity 1: onPause, 
+		Activity 2: onCreate, onStart, onResume, Activity Running
+		Activity 1: onStop,
+
+c) a.
+	Answer:
+		When user presses the "Close Activity"
+		Activity 2: onPause,
+		Activity 1: onRestart, onStart, onResume, Activity Running,
+		Activity 2: onStop, onDestroy
+
+d) a.
+	Answer:
+		When the user presses the Button to start ActivityTwo again,
+		Activity 1: onPause, 
+		Activity 2: onCreate, onStart, onResume, Activity Running;
+		Activity 1: onStop,
+
+		Presses the Home key on the device
+		Activity 2： onPause， onStop
+
+e) a.
+	Starts the application again by clicking on its icon in the Launcher
+		Activity 2: onRestart, onStart, onResume
+
+2.
+
