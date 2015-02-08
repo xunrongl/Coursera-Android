@@ -116,8 +116,6 @@ public class AddToDoActivity extends Activity {
                 mDefaultPriorityButton.setChecked(true);
                 mDefaultStatusButton.setChecked(true);
 
-
-
 			}
 		});
 
@@ -138,7 +136,7 @@ public class AddToDoActivity extends Activity {
 				Status status = getStatus();
 
 				// TODO - Get the current ToDoItem Title
-				String titleString = getTitle().toString();
+				String titleString = getToDoTitle();
 
 				// Construct the Date string
 				String fullDate = dateString + " " + timeString;
